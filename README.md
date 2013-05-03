@@ -2,4 +2,5 @@
 
 ```
 script/bootstrap
+script/test
 ```

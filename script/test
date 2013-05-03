@@ -1,0 +1,10 @@
+#!/bin/bash
+
+SCRIPT_DIR=$(dirname "$0")
+cd "$SCRIPT_DIR/.."
+
+echo "*** Testing via xctool **"
+vendor/xctool/xctool.sh \
+  -project XctoolCocoaPods.xcodeproj \
+  -scheme XctoolCocoaPods \
+  test

@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4904742817342D2200CE7D49 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4904742717342D2200CE7D49 /* UIKit.framework */; };
+		4904742A17342D2200CE7D49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4904742917342D2200CE7D49 /* Foundation.framework */; };
+		4904742C17342D2200CE7D49 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4904742B17342D2200CE7D49 /* CoreGraphics.framework */; };
+		4904743217342D2200CE7D49 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4904743017342D2200CE7D49 /* InfoPlist.strings */; };
+		4904743417342D2200CE7D49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4904743317342D2200CE7D49 /* main.m */; };
+		4904743817342D2200CE7D49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4904743717342D2200CE7D49 /* AppDelegate.m */; };
+		4904743A17342D2200CE7D49 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4904743917342D2200CE7D49 /* Default.png */; };
+		4904743C17342D2200CE7D49 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4904743B17342D2200CE7D49 /* Default@2x.png */; };
+		4904743E17342D2200CE7D49 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4904743D17342D2200CE7D49 /* Default-568h@2x.png */; };
+		4904744617342D2200CE7D49 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4904744517342D2200CE7D49 /* SenTestingKit.framework */; };
+		4904744717342D2200CE7D49 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4904742717342D2200CE7D49 /* UIKit.framework */; };
+		4904744817342D2200CE7D49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4904742917342D2200CE7D49 /* Foundation.framework */; };
+		4904745017342D2200CE7D49 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4904744E17342D2200CE7D49 /* InfoPlist.strings */; };
+		4904745317342D2200CE7D49 /* XctoolCocoaPodsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4904745217342D2200CE7D49 /* XctoolCocoaPodsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4904744917342D2200CE7D49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4904741C17342D2200CE7D49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4904742317342D2200CE7D49;
+			remoteInfo = XctoolCocoaPods;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4904742417342D2200CE7D49 /* XctoolCocoaPods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XctoolCocoaPods.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4904742717342D2200CE7D49 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4904742917342D2200CE7D49 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4904742B17342D2200CE7D49 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4904742F17342D2200CE7D49 /* XctoolCocoaPods-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XctoolCocoaPods-Info.plist"; sourceTree = "<group>"; };
+		4904743117342D2200CE7D49 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4904743317342D2200CE7D49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4904743517342D2200CE7D49 /* XctoolCocoaPods-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XctoolCocoaPods-Prefix.pch"; sourceTree = "<group>"; };
+		4904743617342D2200CE7D49 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4904743717342D2200CE7D49 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4904743917342D2200CE7D49 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4904743B17342D2200CE7D49 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4904743D17342D2200CE7D49 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4904744417342D2200CE7D49 /* XctoolCocoaPodsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XctoolCocoaPodsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4904744517342D2200CE7D49 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		4904744D17342D2200CE7D49 /* XctoolCocoaPodsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XctoolCocoaPodsTests-Info.plist"; sourceTree = "<group>"; };
+		4904744F17342D2200CE7D49 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4904745217342D2200CE7D49 /* XctoolCocoaPodsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XctoolCocoaPodsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4904742117342D2200CE7D49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4904742817342D2200CE7D49 /* UIKit.framework in Frameworks */,
+				4904742A17342D2200CE7D49 /* Foundation.framework in Frameworks */,
+				4904742C17342D2200CE7D49 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4904744017342D2200CE7D49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4904744617342D2200CE7D49 /* SenTestingKit.framework in Frameworks */,
+				4904744717342D2200CE7D49 /* UIKit.framework in Frameworks */,
+				4904744817342D2200CE7D49 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4904741B17342D2200CE7D49 = {
+			isa = PBXGroup;
+			children = (
+				4904742D17342D2200CE7D49 /* XctoolCocoaPods */,
+				4904744B17342D2200CE7D49 /* XctoolCocoaPodsTests */,
+				4904742617342D2200CE7D49 /* Frameworks */,
+				4904742517342D2200CE7D49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4904742517342D2200CE7D49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4904742417342D2200CE7D49 /* XctoolCocoaPods.app */,
+				4904744417342D2200CE7D49 /* XctoolCocoaPodsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4904742617342D2200CE7D49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4904742717342D2200CE7D49 /* UIKit.framework */,
+				4904742917342D2200CE7D49 /* Foundation.framework */,
+				4904742B17342D2200CE7D49 /* CoreGraphics.framework */,
+				4904744517342D2200CE7D49 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4904742D17342D2200CE7D49 /* XctoolCocoaPods */ = {
+			isa = PBXGroup;
+			children = (
+				4904743617342D2200CE7D49 /* AppDelegate.h */,
+				4904743717342D2200CE7D49 /* AppDelegate.m */,
+				4904742E17342D2200CE7D49 /* Supporting Files */,
+			);
+			path = XctoolCocoaPods;
+			sourceTree = "<group>";
+		};
+		4904742E17342D2200CE7D49 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4904742F17342D2200CE7D49 /* XctoolCocoaPods-Info.plist */,
+				4904743017342D2200CE7D49 /* InfoPlist.strings */,
+				4904743317342D2200CE7D49 /* main.m */,
+				4904743517342D2200CE7D49 /* XctoolCocoaPods-Prefix.pch */,
+				4904743917342D2200CE7D49 /* Default.png */,
+				4904743B17342D2200CE7D49 /* Default@2x.png */,
+				4904743D17342D2200CE7D49 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4904744B17342D2200CE7D49 /* XctoolCocoaPodsTests */ = {
+			isa = PBXGroup;
+			children = (
+				4904745217342D2200CE7D49 /* XctoolCocoaPodsTests.m */,
+				4904744C17342D2200CE7D49 /* Supporting Files */,
+			);
+			path = XctoolCocoaPodsTests;
+			sourceTree = "<group>";
+		};
+		4904744C17342D2200CE7D49 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4904744D17342D2200CE7D49 /* XctoolCocoaPodsTests-Info.plist */,
+				4904744E17342D2200CE7D49 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4904742317342D2200CE7D49 /* XctoolCocoaPods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4904745617342D2200CE7D49 /* Build configuration list for PBXNativeTarget "XctoolCocoaPods" */;
+			buildPhases = (
+				4904742017342D2200CE7D49 /* Sources */,
+				4904742117342D2200CE7D49 /* Frameworks */,
+				4904742217342D2200CE7D49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XctoolCocoaPods;
+			productName = XctoolCocoaPods;
+			productReference = 4904742417342D2200CE7D49 /* XctoolCocoaPods.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4904744317342D2200CE7D49 /* XctoolCocoaPodsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4904745917342D2200CE7D49 /* Build configuration list for PBXNativeTarget "XctoolCocoaPodsTests" */;
+			buildPhases = (
+				4904743F17342D2200CE7D49 /* Sources */,
+				4904744017342D2200CE7D49 /* Frameworks */,
+				4904744117342D2200CE7D49 /* Resources */,
+				4904744217342D2200CE7D49 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4904744A17342D2200CE7D49 /* PBXTargetDependency */,
+			);
+			name = XctoolCocoaPodsTests;
+			productName = XctoolCocoaPodsTests;
+			productReference = 4904744417342D2200CE7D49 /* XctoolCocoaPodsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4904741C17342D2200CE7D49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = 4904741F17342D2200CE7D49 /* Build configuration list for PBXProject "XctoolCocoaPods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4904741B17342D2200CE7D49;
+			productRefGroup = 4904742517342D2200CE7D49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4904742317342D2200CE7D49 /* XctoolCocoaPods */,
+				4904744317342D2200CE7D49 /* XctoolCocoaPodsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4904742217342D2200CE7D49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4904743217342D2200CE7D49 /* InfoPlist.strings in Resources */,
+				4904743A17342D2200CE7D49 /* Default.png in Resources */,
+				4904743C17342D2200CE7D49 /* Default@2x.png in Resources */,
+				4904743E17342D2200CE7D49 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4904744117342D2200CE7D49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4904745017342D2200CE7D49 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4904744217342D2200CE7D49 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4904742017342D2200CE7D49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4904743417342D2200CE7D49 /* main.m in Sources */,
+				4904743817342D2200CE7D49 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4904743F17342D2200CE7D49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4904745317342D2200CE7D49 /* XctoolCocoaPodsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4904744A17342D2200CE7D49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4904742317342D2200CE7D49 /* XctoolCocoaPods */;
+			targetProxy = 4904744917342D2200CE7D49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4904743017342D2200CE7D49 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4904743117342D2200CE7D49 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4904744E17342D2200CE7D49 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4904744F17342D2200CE7D49 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4904745417342D2200CE7D49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4904745517342D2200CE7D49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4904745717342D2200CE7D49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XctoolCocoaPods/XctoolCocoaPods-Prefix.pch";
+				INFOPLIST_FILE = "XctoolCocoaPods/XctoolCocoaPods-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4904745817342D2200CE7D49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XctoolCocoaPods/XctoolCocoaPods-Prefix.pch";
+				INFOPLIST_FILE = "XctoolCocoaPods/XctoolCocoaPods-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4904745A17342D2200CE7D49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/XctoolCocoaPods.app/XctoolCocoaPods";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XctoolCocoaPods/XctoolCocoaPods-Prefix.pch";
+				INFOPLIST_FILE = "XctoolCocoaPodsTests/XctoolCocoaPodsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		4904745B17342D2200CE7D49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/XctoolCocoaPods.app/XctoolCocoaPods";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XctoolCocoaPods/XctoolCocoaPods-Prefix.pch";
+				INFOPLIST_FILE = "XctoolCocoaPodsTests/XctoolCocoaPodsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4904741F17342D2200CE7D49 /* Build configuration list for PBXProject "XctoolCocoaPods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4904745417342D2200CE7D49 /* Debug */,
+				4904745517342D2200CE7D49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4904745617342D2200CE7D49 /* Build configuration list for PBXNativeTarget "XctoolCocoaPods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4904745717342D2200CE7D49 /* Debug */,
+				4904745817342D2200CE7D49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4904745917342D2200CE7D49 /* Build configuration list for PBXNativeTarget "XctoolCocoaPodsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4904745A17342D2200CE7D49 /* Debug */,
+				4904745B17342D2200CE7D49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4904741C17342D2200CE7D49 /* Project object */;
+}

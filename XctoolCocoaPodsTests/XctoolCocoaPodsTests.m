@@ -23,7 +23,7 @@
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in XctoolCocoaPodsTests");
+    STAssertEquals(2 + 2, 4, @"Arithmetic works!");
 }
 
 @end
